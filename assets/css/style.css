@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-h1,h2, #name{
+h1,h2, #name, .label{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -72,12 +72,12 @@ header a:focus {
 	border-color: #cccccc;
 	border-style: solid;
 	padding:20px;
+	margin-bottom:100px;
 }
 
 #s1 {
 	width:650px;
 	position:absolute;
-
 }
 
 #s2 {
@@ -110,11 +110,51 @@ h2 {
 	margin-bottom:20px;
 }
 
-img {
+
+#s1 .left {
+	float:left;
+	margin: 0 20px 20px 0;
+	position:relative;
+}
+
+#s1 .right {
+	float:left;
+	margin: 0 0 20px 0;
+	position:relative;
+}
+
+#s1 .gallery {
+	width:290px;
+	height:200px;
+	object-fit:cover;
+}
+
+#s1 .label {
+	width:100%;
+	position:absolute;
+	height:40px;
+	bottom:10px;
+	background-color: #4aaaa5;
+	color:#ffffff;
+	text-align: center;
+	font-size: 14px;
+	opacity:0.9;
+	padding:12px;
+}
+
+#s2 img {
 	margin: 0 15px 20px 0;
 	float:left;
 }
 
+#pfp {
+	margin: 0 20px 20px 0;
+	float:left;
+}
+
+/*a.left:hover, a.right:hover{
+	opacity:1;
+}*/
 
 footer {
 	position:fixed;
