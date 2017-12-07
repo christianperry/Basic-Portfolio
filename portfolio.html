@@ -1,94 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Christian Perry >> Portfolio</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Portfolio</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Local Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
+
 <body>
-	
-	<header>
 
-		<div class="wrapper">
-			<div id="name">
-				Christian Perry
-			</div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Christian Perry</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-			<a href="contact.html">Contact</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="index.html">About</a>
-		</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
 
-	</header>
+        <div class="page-header">
+          <h1>About Me</h1>
+        </div>
 
-	<div id = "main">
+	        <row class = "row-md-12">
+	          	<a href="#"><span class = "col-md-6"> 
+					<img src="assets/images/hangman.jpg" class="img-responsive">
+					<div class="col-md-5 label">
+						Hangman
+					</div>
+				</span></a>
+
+				<a href="#"><span class = "col-md-6">
+					<img src="assets/images/rpg.png" class="img-responsive">
+					<div class="col-md-5 label">
+						RPG Game
+					</div>
+				</span></a>
+			</row>
+
+			<row>
+				<a href="#"><span class = "col-md-6"> 
+					<img src="assets/images/trivia-3.jpg" class="img-responsive">
+					<div class="label">
+						Trivia Game
+					</div>
+				</span></a>
+
+				<a href="#"><span class = "col-md-6">
+					<img src="assets/images/rutgers.png" class="img-responsive">
+					<div class="label">
+						Rutgers Info Widget
+					</div>
+				</span></a>
+			</row>
 		
-		<section id = "s1">
-			<h1>
-				Portfolio
-			</h1>
+			<row>
+				<a href="#"><span class = "col-md-6"> 
+					<img src="assets/images/rps.jpg" class="img-responsive">
+					<div class="label">
+						Rock Paper Scissors
+					</div>
+				</span></a>
+			</row>
+            
+      </div>
 
-			<a href="#"><span class = "left"> 
-				<img src="assets/images/hangman.jpg" class="gallery">
-				<div class="label">
-					Hangman
-				</div>
-			</span></a>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect With Me</h3>
+          </div>
+          <div class="panel-body">
+                  <a href="https://www.linkedin.com/in/ohaisf/" target="_blank"><img src = "assets/images/social-LI.png"></a>
+      <a href="https://github.com/christianperry/" target="_blank"><img src = "assets/images/social-github.png"></a>
+      <a href="https://twitter.com/sfbeta/" target="_blank"><img src = "assets/images/social-twitter.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-			<a href="#"><span class = "right">
-				<img src="assets/images/rpg.png" class="gallery">
-				<div class="label">
-					RPG Game
-				</div>
-			</span></a>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-			<a href="#"><span class = "left"> 
-				<img src="assets/images/trivia-3.jpg" class="gallery">
-				<div class="label">
-					Trivia Game
-				</div>
-			</span></a>
-
-			<a href="#"><span class = "right">
-				<img src="assets/images/rutgers.png" class="gallery">
-				<div class="label">
-					Rutgers Info Widget
-				</div>
-			</span></a>
-
-			<a href="#"><span class = "left"> 
-				<img src="assets/images/rps.jpg" class="gallery">
-				<div class="label">
-					Rock Paper Scissors
-				</div>
-			</span></a>
-
-			
-
-		</section>
-
-		<section id = "s2">
-			<h2>
-				Connect With Me
-			</h2>
-
-			<a href="https://www.linkedin.com/in/ohaisf/" target="_blank"><img src = "assets/images/social-LI.png"></a>
-			<a href="https://github.com/christianperry/" target="_blank"><img src = "assets/images/social-github.png"></a>
-			<a href="https://twitter.com/sfbeta/" target="_blank"><img src = "assets/images/social-twitter.png"></a>
-
-		</section>
-
-
-	</div>
-
-	<footer>
-		<!-- <div id="footer-main"> -->
-			Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons 4.0 Attribution-NonCommercial</a> by Christian Perry
-		<!-- </div> -->
-	</footer>
-
-
-
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
